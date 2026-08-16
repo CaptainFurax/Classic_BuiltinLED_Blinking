@@ -6,12 +6,12 @@ Classic LED Builtin For Arduino Uno R3 With VS Code + PlatformIO
 3. PlatformIO is an alternative Tool to code on µControllers boards such as Arduino, ESP, etc...
 
 ```cpp
-# Target : Arduino CPP for UNO R3
 /*
  * Original Builtin' Blinking LED example for Arduino Uno R3
  * Turns on an LED on for one second,
  * then off for one second, repeatedly.
  * 
+ * Target : Arduino CPP for UNO R3
  * 
  */
 #include <Arduino.h>
