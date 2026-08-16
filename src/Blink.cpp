@@ -1,16 +1,11 @@
 /*
- * Blink
+ * Original Builtin' Blinking LED example for Arduino Uno R3
  * Turns on an LED on for one second,
  * then off for one second, repeatedly.
  * 
  * 
  */
 #include <Arduino.h>
-
-// Set LED_BUILTIN if it is not defined by Arduino framework
-#ifndef LED_BUILTIN
-#define LED_BUILTIN 2
-#endif
 
 void setup()
 {
