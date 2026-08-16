@@ -1,27 +1,11 @@
-How to build PlatformIO based project
-=====================================
+Classic LED Builtin For Arduino Uno R3 With VS Code + PlatformIO 
+================================================================
 
-1. [Install PlatformIO Core](https://docs.platformio.org/page/core.html)
-2. Download [development platform with examples](https://github.com/platformio/platform-espressif32/archive/develop.zip)
-3. Extract ZIP archive
-4. Run these commands:
+1. If needed Install first [ VSCode ](https://code.visualstudio.com/)
+2. Then Install [PlatformIO Core](https://docs.platformio.org/page/core.html)
+3. PlatformIO is an alternative Tool to code on µControllers boards such as Arduino, ESP, etc...
 
 ```shell
-# Change directory to example
-$ cd platform-espressif32/examples/arduino-blink
+# Target : Arduino CPP for UNO R3
 
-# Build project
-$ pio run
-
-# Upload firmware
-$ pio run --target upload
-
-# Build specific environment
-$ pio run -e esp32dev
-
-# Upload firmware for the specific environment
-$ pio run -e esp32dev --target upload
-
-# Clean build files
-$ pio run --target clean
 ```
