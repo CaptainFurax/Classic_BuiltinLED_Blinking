@@ -5,7 +5,6 @@
  * 
  * 
  */
-
 #include <Arduino.h>
 
 // Set LED_BUILTIN if it is not defined by Arduino framework
