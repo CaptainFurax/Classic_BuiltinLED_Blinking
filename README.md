@@ -34,4 +34,22 @@ void loop()
   delay(1000);
   Serial.println( " Bouh!" );
 }
+/*
+ * Optimized One. 
+ */
+#include <Arduino.h>
+bool state = true;
+void setup()
+{
+  Serial.begin( 115200 );
+  // initialize LED digital pin as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop()
+{
+  // turn the LED on & off on a single line 
+  digitalWrite(LED_BUILTIN, state = !state);
+  delay(1000);
+}
 ```

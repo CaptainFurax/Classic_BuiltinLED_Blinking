@@ -16,7 +16,7 @@ void setup()
 
 void loop()
 {
-  // turn the LED on & off on a single line 
+  // turn the LED on & off on a single line
   digitalWrite(LED_BUILTIN, state = !state);
   delay(1000);
 }
