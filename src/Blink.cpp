@@ -2,8 +2,6 @@
  * Original Builtin' Blinking LED example for Arduino Uno R3
  * Turns on an LED on for one second,
  * then off for one second, repeatedly.
- * 
- * 
  */
 #include <Arduino.h>
 bool state = true;
