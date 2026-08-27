@@ -6,7 +6,7 @@
 
 ```cpp
 /*
-  Example classique de la led embarquée clignotante( LED_BUILTIN )
+  Exemple classique de la led embarquée clignotante( LED_BUILTIN )
   Légèrement remanié :
     + Framework : 
         #include <Arduino.h> becôz PlatformiIO
