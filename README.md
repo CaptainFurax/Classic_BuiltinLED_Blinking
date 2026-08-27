@@ -3,7 +3,6 @@
 1. If needed Install first [ VSCode ](https://code.visualstudio.com/)
 2. Then Install [PlatformIO Core](https://docs.platformio.org/page/core.html)
 3. PlatformIO is an alternative Tool to code on µControllers boards such as Arduino, ESP, etc...
-4. 4 blah-blah !
 
 ```cpp
 /*
