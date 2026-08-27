@@ -1,12 +1,12 @@
 /*
   Example classique de la led embarquée clignotante( LED_BUILTIN )
   Légèrement remanié :
-    + framework : 
+    +Fframework : 
         #include <Arduino.h> becôz PlatformiIO
-    + bool state :
+    + Bool state :
         equiv. "LOW" & "HIGH" mais permet un swap rapide( inversion de l'état )
         sans une redondance de digitalWrite()
-    + millis() plutot que delay() :
+    + Millis() plutot que delay() :
         millis() impose un bout de code ( calcul du delta )
         mais millis() n'est pas bloquant contrairement a delay() qui met en pause le cpu. 
     
