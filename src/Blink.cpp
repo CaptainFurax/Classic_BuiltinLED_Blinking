@@ -1,7 +1,7 @@
 /*
   Example classique de la led embarquée clignotante( LED_BUILTIN )
   Légèrement remanié :
-    +Fframework : 
+    +Framework : 
         #include <Arduino.h> becôz PlatformiIO
     + Bool state :
         equiv. "LOW" & "HIGH" mais permet un swap rapide( inversion de l'état )
