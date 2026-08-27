@@ -2,7 +2,7 @@
   Exemple classique de la led embarquée clignotante( LED_BUILTIN )
   Légèrement remanié :
     +Framework : 
-        #include <Arduino.h> becôz PlatformiIO
+        #include <Arduino.h> becôz PlatformIO
     + Bool state :
         equiv. "LOW" & "HIGH" mais permet un swap rapide( inversion de l'état )
         sans une redondance de digitalWrite()
